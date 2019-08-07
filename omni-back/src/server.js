@@ -6,8 +6,4 @@ const server = express()
 
 server.use(routes)
 
-server.get("/", (req, res) => {
-  res.json("Server on-line")
-})
-
-server.listen(3333)
+server.listen(3334)
